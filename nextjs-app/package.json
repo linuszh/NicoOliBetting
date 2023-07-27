@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-app",
+  "version": "1.0.0",
+  "description": "A Next.js application where people can apply bets to a Google Sheets file.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": ["nextjs", "betting", "google-sheets"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "axios": "latest",
+    "dotenv": "latest",
+    "google-spreadsheet": "latest"
+  }
+}
